@@ -24,29 +24,4 @@ class Queue:
         return len(self.items)
 
 
-# Example Usage:
 
-# Stack
-# stack = Stack()
-# stack.push(1)
-# stack.push(2)
-# stack.push(3)
-
-# print("Stack:")
-# print("Top:", stack.peek())
-# print("Pop:", stack.pop())
-# print("Pop:", stack.pop())
-# print("Size:", stack.size())
-
-# # Queue
-# queue = Queue()
-# queue.enqueue(1)
-# queue.enqueue(2)
-# queue.enqueue(3)
-
-# print("\nQueue:")
-# print("Front:", queue.front())
-# print("Dequeue:", queue.dequeue())
-# print("Dequeue:", queue.dequeue())
-# print("Size:", queue.size())
-# 
