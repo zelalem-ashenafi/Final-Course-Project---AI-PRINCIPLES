@@ -94,7 +94,7 @@ class SearchPlatform:
 if __name__ == "__main__":
     # Define the graph
     graph = {
-        'Addis Ababa': {'Adama': 3, 'Ambo': 5, 'Debre Berhan': 5, 'Debre Markos': 13},
+        'Addis Ababa': {'Adama': 3, 'Ambo': 5, 'Debre Berhan': 5},
         'Adama': {'Matahara': 3, 'Asella': 4, 'Batu': 4, 'Addis Ababa': 3},
         'Ambo': {'Wolkite': 6, 'Addis Ababa': 5, 'Nekemte': 8},
         'Debre Berhan': {'Addis Ababa': 5, 'Debre Sina': 2},
